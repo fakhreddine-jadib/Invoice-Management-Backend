@@ -40,4 +40,5 @@ It provides APIs for managing invoices, clients, payments, quotes, and more.
    mvn spring-boot:run
 
 4. **The API will be available at**
+   ```bash
    http://localhost:8080
