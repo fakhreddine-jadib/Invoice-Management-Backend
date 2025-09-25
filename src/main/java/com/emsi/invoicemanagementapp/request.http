@@ -1,0 +1,11 @@
+### Create a new client (Protected)
+POST http://localhost:8081/api/clients
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc1NDA2MDQ4NiwiZXhwIjoxNzU0MTQ2ODg2fQ.DNlT_GSwoKILBJDzCsr3ngiqpnsG9GVoxhrjMDP8U-G8vj3JPJPlDA-009oNIw2P3fP3UMuewV_J3RRrxVP87A
+
+{
+  "companyName": "My First Secure Client",
+  "iceFiscalId": "ICE-SECURE-98765",
+  "email": "client@client.com",
+  "phone": "+212625665788"
+}
